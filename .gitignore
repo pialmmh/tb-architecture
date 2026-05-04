@@ -1,0 +1,8 @@
+# OS / editor junk only — this repo is documentation.
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

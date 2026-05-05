@@ -1,6 +1,6 @@
 name: kcUserView
 type: KcUserView (json)
-trigger: [provideAuthToKeyCloak](../trigger/provideAuthToKeyCloak.md)
+produced by: [api/kcFindUserByUsername](../api/kcFindUserByUsername.md)
 
 Keycloak-shaped projection of one `auth_user` row, returned to Keycloak's User Storage SPI. Shape:
 

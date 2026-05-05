@@ -1,6 +1,6 @@
 name: kcCredentialsValidation
 type: { valid: bool } (json)
-trigger: [provideAuthToKeyCloak](../trigger/provideAuthToKeyCloak.md)
+produced by: [api/kcValidateCredentials](../api/kcValidateCredentials.md)
 
 Result of a BCrypt password check, served back to Keycloak. `valid=true` only when the password matches AND the user is `ACTIVE`. Suspended / locked / deleted users always get `valid=false` even with the correct password.
 

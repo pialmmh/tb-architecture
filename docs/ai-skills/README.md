@@ -19,6 +19,6 @@ docs/
 
 ## Conventions
 
-- API documentation follows the **versioned input/trigger/output** model — see [docs/api-doc/party/README.md](docs/api-doc/party/README.md) for the canonical example and [docs/ai-skills/apibuilder.md](docs/ai-skills/apibuilder.md) for the full authoring contract.
+- API documentation follows the **versioned input/trigger/output** model — see [docs/api-doc/party/README.md](../api-doc/party/README.md) for the canonical example and [docs/ai-skills/apibuilder.md](apibuilder.md) for the full authoring contract.
 - Each service gets one folder under `docs/api-doc/<service>/`. Inside it, each `vX.Y/` folder is a self-contained snapshot of the contract surface; old versions stay frozen so callers can pin against them.
 - AI skills live in `docs/ai-skills/<name>.md`. The skill file is self-contained — point an agent at the path and they'll have everything they need.
